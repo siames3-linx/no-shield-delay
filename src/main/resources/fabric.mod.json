@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "no-shield-delay",
+    "version": "1.0.0",
+    "name": "No Shield Delay",
+    "description": "Removes the annoying 5-tick delay, so you can block at any time you want.",
+    "authors": [
+        "SiAmEs3"
+    ],
+    "contact": {
+        "sources": "https://github.com/siames3-linx/no-shield-delay"
+    },
+    "license": "MIT",
+    "icon": "assets/no-shield-delay/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "noshldlay.siames3.NoShieldDelay"
+        ],
+        "client": [
+            "noshldlay.siames3.client.NoShieldDelayClient"
+        ]
+    },
+    "mixins": [
+        "no-shield-delay.mixins.json",
+        {
+            "config": "no-shield-delay.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.20.1",
+        "minecraft": "~26.3",
+        "java": ">=25",
+        "fabric-api": "*"
+    }
+}
