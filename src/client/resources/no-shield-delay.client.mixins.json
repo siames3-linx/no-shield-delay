@@ -3,7 +3,6 @@
 	"package": "noshldlay.siames3.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-        "ClientShieldInstantBlockMixin"
     ],
 	"injectors": {
 		"defaultRequire": 1
