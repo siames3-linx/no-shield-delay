@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "no-shield-delay",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "No Shield Delay",
     "description": "Removes the annoying 5-tick delay, so you can block at any time you want.",
     "authors": [
